@@ -1,0 +1,8 @@
+[#] Extensible Application Framework add-on repository description data.
+[#] This file is used to identify this repository in XAF Package Manager.
+[#] Data represented in XAF Table Format.
+
+[S] repository-description = [S] Extensible Application Framework Package Manager official default add-on package repository.
+[S] repository-owner = [S] Aquaver
+[S] repository-title = [S] XAF Package Manager - Default standard package repository.
+[S] repository-xaf = [S] 1.0.0
