@@ -1,0 +1,11 @@
+[#] Extensible Application Framework add-on package description file.
+[#] This file is used to identify this project in XAF Package Manager.
+[#] Data represented in XAF Table Format.
+
+[S] package-description = [S] This is example package, which shows basics of XAF PM functionality and general working.
+[S] package-identifier = [S] example-package
+[S] package-index = [S] index.lua
+[S] package-owner = [S] Aquaver
+[S] package-title = [S] XAF Example Package
+[S] package-version = [S] 1.0.0
+[S] package-xaf = [S] 1.0.0
