@@ -3,7 +3,7 @@
 [#] Data represented in XAF Table Format.
 
 [S] package-description = [S] This is example package, which shows basics of XAF PM functionality and general working.
-[S] package-identifier = [S] example-package
+[S] package-identifier = [S] example-package-min
 [S] package-index = [S] index.lua
 [S] package-owner = [S] Aquaver
 [S] package-title = [S] XAF Example Package
