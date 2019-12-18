@@ -41,11 +41,12 @@ package-name
    │   └─ program-data
    |       ├─ another-code.lua (file)
    |       └─ ...
-   └─ _config
-       └─ package.info (file)
+   ├─ _config
+   │   └─ package.info (file)
+   └─ README.md (not required, optional)
 ```
 
-XAF Package Manager add-on package structure standard does not deviate from the above rules very much, but there are little changes. Firstly, the structure hierarchy is a bit different - the package master directory has not one, but two fixed named subdirectories which has files inside them - `_bin`, which stores all user program data and executable files, literally everything, the program needs to run. The second one is - `_config`, which as same as PM package repository, contains package configuration data and description information. Secondly, in constrast to repository structure, in add-on package directory, among these two main subdirectories, **there should (or even must) not be other files and subdirectories** than these two ones. On case of detecting unexpected files in package master category, the PM controller will return an information about it and **interrupts the installation** procedure.
+XAF Package Manager add-on package structure standard does not deviate from the above rules very much, but there are little changes. Firstly, the structure hierarchy is a bit different - the package master directory has not one, but two fixed named subdirectories which has files inside them - `_bin`, which stores all user program data and executable files, literally everything, the program needs to run. The second one is - `_config`, which as same as PM package repository, contains package configuration data and description information. Secondly, in constrast to repository structure, in add-on package directory, among these two main subdirectories and optional `README.md` file, **there should (or even must) not be other files and subdirectories** than these two (three) ones. On case of detecting unexpected files in package master category, the PM controller will return an information about it and **interrupts the installation** procedure.
 
 ## Repository and package configuration files
 
